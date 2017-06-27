@@ -1,0 +1,11 @@
+{
+  "name": "titanium-circle-letter-icon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "titanium-circle-letter-icon.html",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1"
+  }
+}

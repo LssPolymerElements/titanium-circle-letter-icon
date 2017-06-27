@@ -1,0 +1,46 @@
+<link rel="import" href="bower_components/polymer/polymer.html">
+<link rel="import" href="bower_components/polymer2-ts/polymer2-ts.html">
+
+<!--
+Material design: [Cards](https://www.google.com/design/spec/components/cards.html)
+
+`titanium-circle-letter-icon` is a circle with the first character from the text string in it.
+
+Example:
+
+    <titanium-circle-letter-icon text="1" size="40"></titanium-circle-letter-icon>
+
+Example - full text:
+
+    <titanium-circle-letter-icon text="Alice Smith" size="40"></titanium-circle-letter-icon>
+
+### Accessibility
+
+By default, size attribute will be set to 40.
+
+### Styling
+
+The following custom properties and mixins are available for styling:
+
+coming soon.
+
+@group LSS Paper Elements
+@element titanium-titanium-circle-letter-icon
+-->
+
+<dom-module id="titanium-circle-letter-icon">
+
+  <template>
+    <style>
+      .circle {
+        border-radius: 50%;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+      }
+    </style>
+    <div class="circle" style$="[[getStyle(text, size)]]">[[getFirstLetter(text)]]</div>
+
+  </template>
+  <script src="titanium-circle-letter-icon.js"></script>
+</dom-module>
