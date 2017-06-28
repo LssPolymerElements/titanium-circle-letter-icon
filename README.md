@@ -1,4 +1,4 @@
-# \<circle-letter-icon\>
+# \<titanium-circle-letter-icon\>
 
 
 

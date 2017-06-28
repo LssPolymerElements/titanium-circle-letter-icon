@@ -5,7 +5,7 @@
             "name": "Launch Chrome against localhost, with sourcemaps",
             "type": "chrome",
             "request": "launch",
-            "url": "http://localhost:3000/components/lss-api-service/demo/",
+            "url": "http://localhost:3000/components/titanium-circle-letter-icon/demo/",
             "sourceMaps": true,
             "webRoot": "${workspaceRoot}"
         },
