@@ -1,15 +1,25 @@
 {
   "name": "titanium-circle-letter-icon",
-  "version": "1.0.0",
-  "authors": [
-    "Leavitt Software Solutions"
-  ],
+  "version": "2.0.0",
   "keywords": [
     "polymer 2",
     "leavitt software",
-    "lss"
+    "icon input"
+  ],
+  "authors": [
+    "Leavitt Software Solutions"
   ],
   "main": "titanium-circle-letter-icon.html",
+  "description": "`titanium-circle-letter-icon` given text or a letter, takes the first letter and adds to a circle with a random color. Polymer 2",
+  "license": "MIT",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    "package.json",
+    "tsconfig.json",
+    ".gitignore",
+    ".vscode"
+  ],
   "dependencies": {
     "polymer": "Polymer/polymer#^2.0.0",
     "polymer2-ts": "^1.0.0"
@@ -18,8 +28,5 @@
     "lss-iron-demo-helpers": "LssPolymerElements/iron-demo-helpers#^2.0.0",
     "web-component-tester": "Polymer/web-component-tester#^6.0.0",
     "webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
-  },
-  "resolutions": {
-    "polymer": "^2.0.0"
   }
 }
