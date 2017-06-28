@@ -2,7 +2,7 @@
 class TitaniumCircleLetterIcon extends Polymer.Element {
 
     @property()
-    size: Number = 40;
+    size: number = 40;
 
     @property()
     text: string = "A";

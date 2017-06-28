@@ -1,16 +1,18 @@
 <!doctype html>
 <html lang="en">
 
+
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
 
-  <title>titanium-circle-letter-icon demo</title>
+  <title>Titanium Circle Letter Icon Demo</title>
+  <script src="../../webcomponentsjs/webcomponents-lite.js"></script>
 
-  <script src="/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+  <link rel="import" href="../../polymer/polymer.html">
+  <link rel="import" href="../../lss-iron-demo-helpers/demo-pages-shared-styles.html">
+  <link rel="import" href="../../lss-iron-demo-helpers/demo-snippet.html">
 
-  <link rel="import" href="/bower_components/iron-demo-helpers/demo-pages-shared-styles.html">
-  <link rel="import" href="/bower_components/iron-demo-helpers/demo-snippet.html">
   <link rel="import" href="../titanium-circle-letter-icon.html">
 
   <custom-style>
@@ -18,16 +20,40 @@
 
     </style>
   </custom-style>
+
 </head>
+
+
+<dom-module id="x-demo">
+  <template>
+    <h3>Circle Letter Icon Demo</h3>
+    <demo-snippet>
+      <code>
+        <titanium-circle-letter-icon text="B" size="75"></titanium-circle-letter-icon>
+      </code>
+    </demo-snippet>
+
+    <h3>Circle Letter Icon Demo</h3>
+    <demo-snippet>
+      <code>
+        <titanium-circle-letter-icon text="This Could Be a Title" size="90"></titanium-circle-letter-icon>
+      </code>
+    </demo-snippet>
+
+  </template>
+  <script>
+    class XDemo extends Polymer.Element {
+      static get is() {
+        return 'x-demo';
+      }
+    }
+    customElements.define(XDemo.is, XDemo);
+  </script>
+</dom-module>
 
 <body>
   <div class="vertical-section-container centered">
-    <h3>Basic titanium-circle-letter-icon demo</h3>
-    <demo-snippet>
-      <template>
-        <titanium-circle-letter-icon></titanium-circle-letter-icon>
-      </template>
-    </demo-snippet>
+    <x-demo></x-demo>
   </div>
 </body>
 
