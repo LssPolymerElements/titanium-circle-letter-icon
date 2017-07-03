@@ -73,9 +73,11 @@ class TitaniumCircleLetterIcon extends Polymer.Element {
         colors[37] = "#283593";
 
         var firstChar = str.toUpperCase().substring(0, 1);
-
         if (!isNaN(parseInt(firstChar))) {
             return colors[parseInt(firstChar)];
+        }
+        else if ((firstChar.charCodeAt(0) - 55) < 0 || (firstChar.charCodeAt(0) - 55) > 37) {
+            return colors[25];
         }
         else {
             return colors[firstChar.charCodeAt(0) - 55];
