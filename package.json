@@ -7,7 +7,7 @@
   "scripts": {
     "prepublish": "npm run build",
     "postinstall": "bower install",
-    "lint": "tslint \"/*.ts\"",
+    "lint": "tslint \"*.ts\"",
     "build": "tsc",
     "test": "npm run lint && npm run build"
   },
