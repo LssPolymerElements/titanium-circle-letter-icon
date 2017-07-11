@@ -67,11 +67,15 @@ let TitaniumCircleLetterIcon = class TitaniumCircleLetterIcon extends Polymer.El
         colors[36] = '#3F51B5';
         colors[37] = '#283593';
         let firstChar = str.toUpperCase().substring(0, 1);
+        let firstCharLess55 = firstChar.charCodeAt(0) - 55;
         if (!isNaN(parseInt(firstChar))) {
             return colors[parseInt(firstChar)];
         }
+        else if (firstCharLess55 < 0 || firstCharLess55 > 37) {
+            return colors[25];
+        }
         else {
-            return colors[firstChar.charCodeAt(0) - 55];
+            return colors[firstCharLess55];
         }
     }
 };
