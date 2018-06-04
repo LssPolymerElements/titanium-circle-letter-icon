@@ -22,7 +22,8 @@
   ],
   "dependencies": {
     "polymer": "Polymer/polymer#^2.4.0",
-    "polymer-decorators": "^2.0.1"
+    "polymer-decorators": "^2.0.1",
+    "reflect-metadata": "rbuckton/reflect-metadata#^0.1.12"
   },
   "devDependencies": {
     "lss-iron-demo-helpers": "LssPolymerElements/iron-demo-helpers#^2.0.0",
