@@ -27,7 +27,8 @@ gulp.task('polymerServe', function (done) {
 gulp.task('browser-sync', function () {
   browserSync.init({
     proxy: "localhost:502",
-    files: '*.html, *.js, images/*, demo/*.html, demo/*.js'
+    files: '*.html, *.js, images/*, demo/*.html, demo/*.js',
+    startPath: '/components/titanium-circle-letter-icon/demo/index.html'
   });
 });
 
