@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "titanium-circle-letter-icon.html",
-  "dependencies": {},
+  "dependencies": {
+    "clang-format": "^1.2.3"
+  },
   "scripts": {
     "prepublish": "npm run build",
     "postinstall": "bower install",

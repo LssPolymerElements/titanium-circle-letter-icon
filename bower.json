@@ -1,6 +1,6 @@
 {
   "name": "titanium-circle-letter-icon",
-  "version": "2.0.1",
+  "version": "3.0.1",
   "keywords": [
     "polymer 2",
     "leavitt software",
@@ -21,8 +21,8 @@
     ".vscode"
   ],
   "dependencies": {
-    "polymer": "Polymer/polymer#^2.0.0",
-    "polymer2-ts": "^1.0.0"
+    "polymer": "Polymer/polymer#^2.4.0",
+    "polymer-decorators": "^2.0.1"
   },
   "devDependencies": {
     "lss-iron-demo-helpers": "LssPolymerElements/iron-demo-helpers#^2.0.0",
